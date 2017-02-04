@@ -1,0 +1,100 @@
+html, body, .box {
+  height: 100%;
+  width: 100%; }
+
+.modify {
+  height: 100%;
+  width: 100%; }
+  .modify h2 {
+    height: 44px;
+    line-height: 44px;
+    font-size: 22px;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 0px;
+    margin-top: 0px; }
+    .modify h2 span {
+      float: left;
+      padding-left: 20px; }
+    .modify h2 i {
+      float: right;
+      padding-right: 20px; }
+
+.modify {
+  overflow: hidden; }
+  .modify h2 {
+    position: absolute;
+    width: 100%;
+    background: #1A1720;
+    margin-top: 0px;
+    margin-bottom: 0px; }
+    .modify h2 .mui-icon {
+      line-height: 44px; }
+    .modify h2 i span {
+      padding-left: 0; }
+  .modify .modify-dl {
+    padding-top: 60px;
+    height: 180px;
+    background: #F5F3F8;
+    padding-bottom: 40px; }
+    .modify .modify-dl dt {
+      float: left;
+      height: 100px;
+      width: 100px;
+      background: #fff;
+      border-radius: 50px;
+      text-align: center;
+      margin-left: 10px; }
+      .modify .modify-dl dt img {
+        margin-top: 20px;
+        height: 50px;
+        width: auto; }
+    .modify .modify-dl dd {
+      margin-top: 45px;
+      float: left;
+      padding-left: 10px;
+      color: #BEBBC2;
+      font-size: 14px; }
+  .modify .modify-ul li {
+    color: #A6A4A9;
+    height: 50px;
+    line-height: 50px;
+    padding: 0 20px;
+    border-bottom: 1px solid #D2D2D2; }
+    .modify .modify-ul li span {
+      float: right;
+      color: #000;
+      width: 60%;
+      text-align: right; }
+      .modify .modify-ul li span input {
+        margin-bottom: 0px;
+        float: right;
+        outline: 0 none;
+        margin-top: 5px; }
+
+.toggle input {
+  display: none; }
+  .toggle input:checked + .tack .handler {
+    background: #FFFFFF;
+    margin-left: 20px;
+    -webkit-transition: margin-left 0.5s; }
+  .toggle input:checked + .tack {
+    background: lime;
+    -webkit-transition: background 3s; }
+.toggle .tack {
+  float: right;
+  margin-top: 10px;
+  height: 30px;
+  width: 50px;
+  border-radius: 15px;
+  border: 1px solid #ccc; }
+  .toggle .tack .handler {
+    height: 28px;
+    width: 29px;
+    border-radius: 100%;
+    border: 1px solid #ccc;
+    margin-left: 0;
+    background: #FFFFFF;
+    -webkit-transition: margin-left 0.8s; }
+
+/*# sourceMappingURL=style.css.map */
